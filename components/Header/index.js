@@ -30,3 +30,10 @@ function Header() {
     return divHeader;
 }
 
+const newHeader = Header();
+const headerContainer = document.querySelector('.header-container');
+
+headerContainer.appendChild(newHeader);
+
+
+

@@ -12,7 +12,8 @@ const tabContainer = document.querySelector('.topics');
 
     axios.get('https://lambda-times-backend.herokuapp.com/topics')
     .then(response => {
-        response.data.forEach(topic => {
+        // debugger
+        response.data.topics.forEach(topic => {
             const newTab = Tab(topic)
             return newTab;
         });
@@ -33,5 +34,6 @@ function Tab(tab1){
     return divTab;
 }
 
+Tab();
 
 
