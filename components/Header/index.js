@@ -23,9 +23,10 @@ function Header() {
     divHeader.appendChild(h1);
     divHeader.appendChild(temp);
 
+    date.textContent = 'MARCH 28, 2019';
+    h1.textContent = 'Lambda Times';
+    temp.textContent = '98°';
+
     return divHeader;
 }
 
-const container = document.querySelector('.headerContainer');
-
-container.appendChild(divHeader);
