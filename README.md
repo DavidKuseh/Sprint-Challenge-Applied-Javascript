@@ -42,7 +42,7 @@ Answer: An event listener is a method that calls a specific function when an eve
 
 4. Why would we convert a NodeList into an Array?
 
-Answer: A nodelist is converted to an array in order to use other array methods other than forEach which are not available for nodelists.
+Answer: A nodelist is converted to an array in order to use other array methods other than forEach which are not readily available for nodelists.
 
 5. What is a component?
 
