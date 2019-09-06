@@ -46,7 +46,7 @@ Answer: A nodelist is converted to an array in order to use other array methods 
 
 5. What is a component?
 
-Answer:  A component is a reusable piece of code that prevents repetition and can be used alone (stand alone).
+Answer:  A component is a reusable piece of code that prevents repetition and can be used alone.
 
 ### Git Set up
 
